@@ -1,0 +1,150 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  width: 100%;
+  overflow-y: auto;   
+  overflow-x: hidden;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+*{
+  margin: 0px ;
+  padding:0px;
+}
+.bg_headline{
+  font-weight:200;
+  font-size:58px;
+
+}
+  .card .card_sleep {
+    margin-top:5% ;
+    margin-left:4% ;
+  }
+.move_card_details{
+  margin-left: 4%;
+}
+
+
+.move_button {
+  position: relative;
+  overflow: hidden;
+      background-color: var(--mobi-blue);
+     transition: all 0.3s ease;
+}
+.move_button:hover{
+  background-color: black;
+  color:rgb(245, 241, 243);
+   transform: translateY(-5px);
+  box-shadow: 0 0 15px rgba(105, 79, 73, 0.7);
+}
+.about_border{
+border-radius: 10px;
+border-left: 1px solid black;
+padding:20px;
+     transition: all 0.4s ease-in-out;
+
+}
+.about_border:hover{
+ background-color: #043148;
+ color: white;
+}
+.self_service h1{
+  color: #00020c;
+  margin: 30px;
+  font-weight:350;
+}
+.self_service h4{
+    color:#d61616;
+}
+.self_service h6{
+  font-weight:450;
+   font-size: 18px;
+   margin: 10px;
+}
+.self_service button{
+  background-color:white;
+  border: 2px solid black ;
+  border-radius: 20px;
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-left:10%;
+  margin-top: 20px;
+  color: black;
+}
+.nav-link{
+  font-weight:500;
+  color: black;
+}
+.line_div{
+  height:0.3px; 
+  background-color: black;
+  width: 100%;
+  border-radius: 20px;
+}
+.all_card img{
+ transition: all 0.7s ease-in-out;
+
+}
+.all_card span{
+  float:right;
+}
+.all_card h6{
+  font-weight: 480;
+}
+.all_card img:hover {
+  transform: scale(1.2);
+}
+
+.headline{
+  background-color: #022539;
+  color: white;
+  padding: 3px;
+  padding-left: 5%;
+  border-radius:10px;
+ transition: all 0.3s ease-in-out;
+
+}
+.headline:hover{
+   transform: translateY(-5px);
+   background-color:#012f46;
+   color: red;
+   border: 2px solid black;
+  box-shadow: 0 0 15px rgba(105, 79, 73, 0.7);
+}
+.why_choose_us h3{
+    font-weight: 500;
+}
+.why_choose_us ul{
+  margin-left: 5%;
+  font-weight: 500;
+  margin-top: 20px;
+}
+.mission h2 {
+    font-weight: 500;
+}
+.mission h6{
+  font-size:15px;
+}
+.service h3{
+  margin-top: 10px;
+}
+.element-staring-image img{
+filter: blur(1px);
+}
+.contact_us_form .row{
+ border: 2px solid black;
+ border-bottom: 0px ;
+ border-top: 0px ;
+ border-radius: 20px;
+
+}
+.contact_us_form label{
+  /* color: red; */
+}
